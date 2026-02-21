@@ -1,0 +1,9 @@
+{
+  "name": "url-shortener-lambdas",
+  "version": "1.0.0",
+  "description": "Lambda functions for URL shortener",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.600.0",
+    "nanoid": "^3.3.7"
+  }
+}

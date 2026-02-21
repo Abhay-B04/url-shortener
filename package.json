@@ -1,0 +1,15 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm i && cd infra && npm i && cd ../lambdas && npm i",
+    "deploy": "cd infra && npm run deploy",
+    "synth": "cd infra && npm run synth",
+    "test": "bash scripts/test-api.sh"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4"
+  }
+}
